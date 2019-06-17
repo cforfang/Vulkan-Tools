@@ -58,7 +58,6 @@
 
 #ifdef _WIN32
 
-#define snprintf _snprintf
 #define strdup _strdup
 
 // Returns nonzero if the console is used only for this process. Will return
